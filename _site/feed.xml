@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/</id>
+  <id>https://d0s3nt.github.io/</id>
   <title>d0s3nt</title>
   <subtitle>I will share detailed writeups and cutting-edge techniques that I learn and explore</subtitle>
-  <updated>2024-12-28T16:31:32+01:00</updated>
+  <updated>2024-12-28T16:50:35+01:00</updated>
   <author>
     <name>d0s3nt</name>
-    <uri>http://localhost:4000/</uri>
+    <uri>https://d0s3nt.github.io/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://d0s3nt.github.io/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/"/>
+    href="https://d0s3nt.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator>
   <rights> © 2024 d0s3nt </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>Union</title>
-    <link href="http://localhost:4000/posts/union/" rel="alternate" type="text/html" title="Union" />
+    <link href="https://d0s3nt.github.io/posts/union/" rel="alternate" type="text/html" title="Union" />
     <published>2024-12-28T00:00:00+01:00</published>
   
     <updated>2024-12-28T08:55:58+01:00</updated>
   
-    <id>http://localhost:4000/posts/union/</id>
-    <content type="text/html" src="http://localhost:4000/posts/union/" />
+    <id>https://d0s3nt.github.io/posts/union/</id>
+    <content type="text/html" src="https://d0s3nt.github.io/posts/union/" />
     <author>
       <name>d0s3nt</name>
     </author>
@@ -66,13 +66,13 @@ the use is uhc@loc...</summary>
   
   <entry>
     <title>Trick</title>
-    <link href="http://localhost:4000/posts/trick/" rel="alternate" type="text/html" title="Trick" />
+    <link href="https://d0s3nt.github.io/posts/trick/" rel="alternate" type="text/html" title="Trick" />
     <published>2024-12-28T00:00:00+01:00</published>
   
     <updated>2024-12-28T08:55:58+01:00</updated>
   
-    <id>http://localhost:4000/posts/trick/</id>
-    <content type="text/html" src="http://localhost:4000/posts/trick/" />
+    <id>https://d0s3nt.github.io/posts/trick/</id>
+    <content type="text/html" src="https://d0s3nt.github.io/posts/trick/" />
     <author>
       <name>d0s3nt</name>
     </author>
@@ -104,13 +104,13 @@ using DNS zon...</summary>
   
   <entry>
     <title>Soccer</title>
-    <link href="http://localhost:4000/posts/soccer/" rel="alternate" type="text/html" title="Soccer" />
+    <link href="https://d0s3nt.github.io/posts/soccer/" rel="alternate" type="text/html" title="Soccer" />
     <published>2024-12-28T00:00:00+01:00</published>
   
     <updated>2024-12-28T08:55:58+01:00</updated>
   
-    <id>http://localhost:4000/posts/soccer/</id>
-    <content type="text/html" src="http://localhost:4000/posts/soccer/" />
+    <id>https://d0s3nt.github.io/posts/soccer/</id>
+    <content type="text/html" src="https://d0s3nt.github.io/posts/soccer/" />
     <author>
       <name>d0s3nt</name>
     </author>
@@ -150,13 +150,13 @@ we can upload anything we wa...</summary>
   
   <entry>
     <title>Sea</title>
-    <link href="http://localhost:4000/posts/sea/" rel="alternate" type="text/html" title="Sea" />
+    <link href="https://d0s3nt.github.io/posts/sea/" rel="alternate" type="text/html" title="Sea" />
     <published>2024-12-28T00:00:00+01:00</published>
   
     <updated>2024-12-28T08:55:58+01:00</updated>
   
-    <id>http://localhost:4000/posts/sea/</id>
-    <content type="text/html" src="http://localhost:4000/posts/sea/" />
+    <id>https://d0s3nt.github.io/posts/sea/</id>
+    <content type="text/html" src="https://d0s3nt.github.io/posts/sea/" />
     <author>
       <name>d0s3nt</name>
     </author>
@@ -196,13 +196,13 @@ Permission is hereby granted...</summary>
   
   <entry>
     <title>Remote</title>
-    <link href="http://localhost:4000/posts/remote/" rel="alternate" type="text/html" title="Remote" />
+    <link href="https://d0s3nt.github.io/posts/remote/" rel="alternate" type="text/html" title="Remote" />
     <published>2024-12-28T00:00:00+01:00</published>
   
     <updated>2024-12-28T08:55:58+01:00</updated>
   
-    <id>http://localhost:4000/posts/remote/</id>
-    <content type="text/html" src="http://localhost:4000/posts/remote/" />
+    <id>https://d0s3nt.github.io/posts/remote/</id>
+    <content type="text/html" src="https://d0s3nt.github.io/posts/remote/" />
     <author>
       <name>d0s3nt</name>
     </author>
