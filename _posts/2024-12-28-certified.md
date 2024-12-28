@@ -2,7 +2,16 @@
 layout: post
 title: "Certified"
 date: 2024-12-28
-categories: hackthebox
+author: cotes
+categories: [Writeup, HackTheBox]
+tags: [HTB, Writeup, Security]
+pin: true
+math: true
+mermaid: true
+image:
+  path: /assets/img/commons/hackthebox.png
+  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+  alt: Hackthebox Image
 ---
 
  g-afirst assumed breach scenario from HTB , no nmap this time the name of box is Certified from the name , I would assume the box is related to the ADCS , and the box will be DC 
