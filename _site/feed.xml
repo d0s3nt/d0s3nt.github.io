@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>d0s3nt</title>
   <subtitle>I will share detailed writeups and cutting-edge techniques that I learn and explore</subtitle>
-  <updated>2024-12-28T08:54:53+01:00</updated>
+  <updated>2024-12-28T16:31:32+01:00</updated>
   <author>
     <name>d0s3nt</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/union/" rel="alternate" type="text/html" title="Union" />
     <published>2024-12-28T00:00:00+01:00</published>
   
-    <updated>2024-12-28T08:32:01+01:00</updated>
+    <updated>2024-12-28T08:55:58+01:00</updated>
   
     <id>http://localhost:4000/posts/union/</id>
     <content type="text/html" src="http://localhost:4000/posts/union/" />
@@ -69,7 +69,7 @@ the use is uhc@loc...</summary>
     <link href="http://localhost:4000/posts/trick/" rel="alternate" type="text/html" title="Trick" />
     <published>2024-12-28T00:00:00+01:00</published>
   
-    <updated>2024-12-28T08:32:01+01:00</updated>
+    <updated>2024-12-28T08:55:58+01:00</updated>
   
     <id>http://localhost:4000/posts/trick/</id>
     <content type="text/html" src="http://localhost:4000/posts/trick/" />
@@ -107,7 +107,7 @@ using DNS zon...</summary>
     <link href="http://localhost:4000/posts/soccer/" rel="alternate" type="text/html" title="Soccer" />
     <published>2024-12-28T00:00:00+01:00</published>
   
-    <updated>2024-12-28T08:32:01+01:00</updated>
+    <updated>2024-12-28T08:55:58+01:00</updated>
   
     <id>http://localhost:4000/posts/soccer/</id>
     <content type="text/html" src="http://localhost:4000/posts/soccer/" />
@@ -153,7 +153,7 @@ we can upload anything we wa...</summary>
     <link href="http://localhost:4000/posts/sea/" rel="alternate" type="text/html" title="Sea" />
     <published>2024-12-28T00:00:00+01:00</published>
   
-    <updated>2024-12-28T08:32:01+01:00</updated>
+    <updated>2024-12-28T08:55:58+01:00</updated>
   
     <id>http://localhost:4000/posts/sea/</id>
     <content type="text/html" src="http://localhost:4000/posts/sea/" />
@@ -199,7 +199,7 @@ Permission is hereby granted...</summary>
     <link href="http://localhost:4000/posts/remote/" rel="alternate" type="text/html" title="Remote" />
     <published>2024-12-28T00:00:00+01:00</published>
   
-    <updated>2024-12-28T08:32:01+01:00</updated>
+    <updated>2024-12-28T08:55:58+01:00</updated>
   
     <id>http://localhost:4000/posts/remote/</id>
     <content type="text/html" src="http://localhost:4000/posts/remote/" />

